@@ -21,7 +21,7 @@ calculate  **tfidf(t, d) = tf(t,d) * idf(t,D).**
 ## Part-1: Inverted Index, using BST
 You need to implement the required functions in the file invertedIndex.c that reads data from a given collection of files in collection.txt (see simple example files) and generates an "inverted index" that provides a sorted list (set) of filenames for every word in a given collection of files. You need to use binary search ADT to implement your inverted index. For more information on this, please see the following hints:
 
-![alt text](COMP2521-tfidf.png "COMP2521-tfidf")
+![alt text](COMP2521-tfidf.png "COMP2521-tfidf")![alt text](COMP2521-tfidf1.png "COMP2521-tfidf1")
 
 "How to Implement Ass1"
 We will also discuss the above hints in the lecture. Please note that each list of filenames (for a single word) in your inverted index should be alphabetically ordered, using ascending order, and importantly duplicate filenames are not allowed.
@@ -74,9 +74,7 @@ Your program should output a give inverted index tree to a file named invertedIn
 For example, invertedIndex.txt may look like the following. The example below offers formatting information. The expected invertedIndex.txt for exmp1 is available here.
 
 `and file11.txt (0.030303)
-
 apparent file11.txt (0.030303)
-
 ascribed file11.txt (0.030303) file21.txt (0.062500)
 
 attributed file11.txt (0.030303) file21.txt (0.062500)
