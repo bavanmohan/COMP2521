@@ -8,7 +8,7 @@ To give you further practice with C and data structures (Tree ADT)
 ### Aim
 In this assignment, your task is to implement an information retrieval system using a well known term-weighting scheme called "tf-idf". You should start by reading the Wikipedia entries on these topics. The following Wikipedia page describes how to calculate tf-idf values. Later I will also discuss these topics in the lecture.
 
-## tf-idf
+[tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
 For this assignment,
 
 calculate relative term frequency tf(t,d) adjusted for document (d) length,
@@ -16,9 +16,7 @@ calculate relative term frequency tf(t,d) adjusted for document (d) length,
 
 calculate inverse document frequency idf(t, D) by dividing the total number of documents by the number of documents containing the term, and then taking the logarithm of that quotient:
 
-calculate tfidf(t, d) = tf(t,d) * idf(t,D).
-
-For clarifications, see the example below.
+calculate  **tfidf(t, d) = tf(t,d) * idf(t,D).**
 
 ## Part-1: Inverted Index, using BST
 You need to implement the required functions in the file invertedIndex.c that reads data from a given collection of files in collection.txt (see simple example files) and generates an "inverted index" that provides a sorted list (set) of filenames for every word in a given collection of files. You need to use binary search ADT to implement your inverted index. For more information on this, please see the following hints:
@@ -41,8 +39,8 @@ Please note that if you have multiple punctuation marks at the end of a word, yo
 
 Importantly, you need to modify a given string, do NOT create another copy. You can use the functions tolower and strlen. You may find the following links useful:
 
-tolower example
-C Strings
+[tolower example](https://www.tutorialspoint.com/c_standard_library/c_function_tolower.htm)
+[C Strings](https://www.tutorialspoint.com/cprogramming/c_strings.htm)
 
 For example,
 
