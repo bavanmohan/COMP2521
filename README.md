@@ -73,19 +73,19 @@ Your program should output a give inverted index tree to a file named invertedIn
 
 For example, invertedIndex.txt may look like the following. The example below offers formatting information. The expected invertedIndex.txt for exmp1 is available here.
 
-`and file11.txt (0.030303)
-apparent file11.txt (0.030303)
-ascribed file11.txt (0.030303) file21.txt (0.062500)
+`and file11.txt (0.030303)`
+`apparent file11.txt (0.030303)`
+`ascribed file11.txt (0.030303) file21.txt (0.062500)`
 
-attributed file11.txt (0.030303) file21.txt (0.062500)
+`attributed file11.txt (0.030303) file21.txt (0.062500)`
 
-been file11.txt (0.030303)
+`been file11.txt (0.030303)`
 
-changes file11.txt (0.030303) file21.txt (0.062500)
+`changes file11.txt (0.030303) file21.txt (0.062500)`
 
-circle mixed.txt (0.111111) planets.txt (0.222222)
+`circle mixed.txt (0.111111) planets.txt (0.222222)`
 
-color file11.txt (0.030303) file21.txt (0.062500)`
+`color file11.txt (0.030303) file21.txt (0.062500)`
 
 ## Part-2: Information Retrieval Engine
 In this part, you need to implement an information retrieval function that finds files (documents) with one or more query terms, and uses the summation of tf-idf values of all matching query terms (words) for ranking such files (documents). You need to calculate the tf-idf value for each matching query term in a file (document), and rank files (documents) based on the summation of tf-idf values for all matching query terms present in that file. Use the "inverted index" you created in Part 1 to locate files with one or more query terms and calculate the required tf-idf values for such files.
