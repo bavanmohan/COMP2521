@@ -99,4 +99,5 @@ This function returns an ordered list where each node contains a filename and th
 
 The searchWords array will be terminated with a NULL pointer. Here's an example:
 `char *words[] = { "nasa", "mars", "earth", NULL };`
+
 `TfIdfList list = retrieve(index, words, 7);`
