@@ -74,7 +74,9 @@ Your program should output a give inverted index tree to a file named invertedIn
 For example, invertedIndex.txt may look like the following. The example below offers formatting information. The expected invertedIndex.txt for exmp1 is available here.
 
 `and file11.txt (0.030303)`
+
 `apparent file11.txt (0.030303)`
+
 `ascribed file11.txt (0.030303) file21.txt (0.062500)`
 
 `attributed file11.txt (0.030303) file21.txt (0.062500)`
