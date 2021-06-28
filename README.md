@@ -111,4 +111,5 @@ The searchWords array will be terminated with a NULL pointer. Here's an example:
 
 ## Testing
 To test the program, run `gcc -Wall -Werror -lm -std=c11 *.c  -o  test_Ass1`, then run `./test_Ass1`
+For more details on how to run individual functions, please se `test_ass1.c` 
 
