@@ -110,6 +110,6 @@ The searchWords array will be terminated with a NULL pointer. Here's an example:
 `TfIdfList list = retrieve(index, words, 7);`
 
 ## Testing
-To test the program, move, to the `ass1_test` directory, run `gcc -Wall -Werror -lm -std=c11 *.c  -o  test_Ass1`, and then run `./test_Ass1`
+To test the program, move, to the `ass1_test` directory, run `gcc -Wall -Werror -lm -std=c11 *.c  -o  test_Ass1`, and then run `./test_Ass1`\
 For more details on how to run individual functions, please se `test_ass1.c` 
 
