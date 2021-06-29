@@ -1,0 +1,5 @@
+Usage: ./testCentralityMeasures [file] [flag]
+Valid Flags:
+    c    : closeness centrality
+    b    : betweenness centrality
+    bn   : betweenness centrality normalised
