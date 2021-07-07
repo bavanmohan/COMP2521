@@ -97,7 +97,7 @@ However, considering we may have more than one connected components, for this as
 
 `CWF(u)=n−1N−1∗n−1∑all v reachable from ud(u,v)`
 
-where d(u,v) is the shortest-path distance in a directed graph from vertex u to v, n is the number of nodes that u can reach, and N denote the number of nodes in the graph.
+where `d(u,v)` is the shortest-path distance in a directed graph from vertex u to v, n is the number of nodes that u can reach, and N denote the number of nodes in the graph.
 
 Wasserman and Faust formula is useful for graphs with more than one connected components. However, if a node is not connected to any other node (isolated), its closeness value 
 CWF should be zero (0).
