@@ -88,14 +88,29 @@ Descriptions of some of the following items are from Wikipedia at Centrality, ad
 Closeness centrality (or closeness) of a node is calculated as the sum of the length of the shortest paths between the node (x) and all
 other nodes (y ∈ V ∧ y ≠ x) in the graph. Generally closeness is defined as below,
 
-C (x)=1/∑yd(y,x)
+`C (x)=1/∑yd(y,x)`
 
 where 
-d(y,x) is the shortest distance between vertices x and y
+`d(y,x)` is the shortest distance between vertices x and y
+
+However, considering we may have more than one connected components, for this assignment you need to use Wasserman and Faust formula to calculate closeness of a node in a directed graph as described below:
+
+`CWF(u)=n−1N−1∗n−1∑all v reachable from ud(u,v)`
+
+where d(u,v) is the shortest-path distance in a directed graph from vertex u to v, n is the number of nodes that u can reach, and N denote the number of nodes in the graph.
+
+Wasserman and Faust formula is useful for graphs with more than one connected components. However, if a node is not connected to any other node (isolated), its closeness value 
+CWF should be zero (0).
 
 
+### Betweenness Centrality ###
+The betweenness centrality of a node v is given by the expression:
 
+g(v)=∑s≠v≠t σst(v)σst where σst is the total number of shortest paths from node s to node t and σst(v) is the number of those paths that pass through v.
 
+For this assignment, use the following approach to calculate normalised betweenness centrality. It is easier! and also avoids zero as denominator (for n>2).
+
+normal(g(v))=1((n−1)(n−2))∗g(v) where, n represents the number of nodes in the graph.
 
 
 
