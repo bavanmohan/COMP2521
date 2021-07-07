@@ -106,11 +106,11 @@ CWF should be zero (0).
 ### Betweenness Centrality ###
 The betweenness centrality of a node v is given by the expression:
 
-g(v)=∑s≠v≠t σst(v)σst where σst is the total number of shortest paths from node s to node t and σst(v) is the number of those paths that pass through v.
+`g(v)=∑s≠v≠t σ(v)σ` where σ is the total number of shortest paths from node s to node t and σ(v) is the number of those paths that pass through v.
 
 For this assignment, use the following approach to calculate normalised betweenness centrality. It is easier! and also avoids zero as denominator (for n>2).
 
-normal(g(v))=1((n−1)(n−2))∗g(v) where, n represents the number of nodes in the graph.
+`normal(g(v))=1((n−1)(n−2))∗g(v)` where, n represents the number of nodes in the graph.
 
 
 
