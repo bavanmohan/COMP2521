@@ -119,10 +119,10 @@ To run tests on all graphs, do: `./testDijkstra.sh`
 To view shortest path output on graph 1, do: `./testDijkstra.sh graphs/1.in`
 
 ## Centrality ##
-Usage: ./testCentralityMeasures [file] [flag]
-Valid Flags:
-    c    : closeness centrality
-    b    : betweenness centrality
+Usage: ./testCentralityMeasures [file] [flag]\
+Valid Flags:\
+    c    : closeness centrality\
+    b    : betweenness centrality\
 
 If you wanted to see the output for your "closeness centrality " function for the 2nd test graph you would run:
 ./testCentralityMeasures graphs/2.in c
