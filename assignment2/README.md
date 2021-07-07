@@ -112,5 +112,31 @@ For this assignment, use the following approach to calculate normalised betweenn
 
 `normal(g(v))=1((n−1)(n−2))∗g(v)` where, n represents the number of nodes in the graph.
 
+## Testing ## 
+
+### Djikstra ###
+To run tests on all graphs, do: `./testDijkstra.sh`
+To view shortest path output on graph 1, do: `./testDijkstra.sh graphs/1.in`
+
+## Centrality ##
+Usage: ./testCentralityMeasures [file] [flag]
+Valid Flags:
+    c    : closeness centrality
+    b    : betweenness centrality
+
+If you wanted to see the output for your "closeness centrality " function for the 2nd test graph you would run:
+./testCentralityMeasures graphs/2.in c
+
+If you wanted to see the output for your "betweenness centrality" function for the 2nd test graph you would run:
+./testCentralityMeasures graphs/2.in b
+
+If you want to compare the output against a sample correct expected solution, use the provided script which compares against the correct expected output in /centralityMeasuresTests
+
+do ./testCentralityMeasures.sh 1 c to view "closeness centrality" on graph 1
+
+do ./testCentralityMeasures.sh 1 to view all centrality measurements on graph 1
+
+do ./testCentrality.sh to view all centrality measurements on all graphs
+    
 
 
